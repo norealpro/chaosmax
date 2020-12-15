@@ -1,0 +1,38 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+
+*:focus {
+  outline: none;
+  -moz-outline:none;
+  -webkit-outline:none;
+}
+
+
+/*body {
+  background: #4682B4 !important;
+}*/
+
+.headercontainer {
+  align-items: baseline;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 1rem;
+  transition: all 0.2s ease;
+}
+
+#nescss {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.nes-container{
+	border: none !important;
+	background: transparent !important;
+}
+
+canvas{
+	image-rendering:-moz-crisp-edges;
+	image-rendering:pixelated;
+}
